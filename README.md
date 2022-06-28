@@ -3,7 +3,7 @@
 ## Background
 Wordle is a web-based game that has gained critical acclaim at the beginning of the year. The objective of the game is to guess the 5 letter word of the day. The player is given six attempts to try to guess this word. For each attempt, the player receives feedback on the word that they have entered. If the letter of the word that they have entered does not belong in the word of the day, then the tile of the letter is coloured in gray. If a letter from the entered word does belong in the word of the day but the position of the letter is wrong then the tile of the letter is coloured in yellow. If the letter and the position match the letter from the word of the day, then the tile of the letter is coloured in green. The game ends if the player guesses the correct word or when the player runs out of attempts
 
-## Testcases
+## Test Cases
 <b>TC1:-</b> All words are loaded into the word bank <br>
 <b>TC2:-</b> Word is removed from the word bank when updateWordBank is called <br>
 <b>TC3:-</b> Guess entered from the player is less than five letters <br>
